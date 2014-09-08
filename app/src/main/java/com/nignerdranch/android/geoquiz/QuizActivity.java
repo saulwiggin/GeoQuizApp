@@ -58,7 +58,8 @@ public class QuizActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                //Start CheatActivity
+                Intent i = new Intent(QuizActivity.this, CheatActivity.class);
+                startActivity(i);
                 }
         }
         })

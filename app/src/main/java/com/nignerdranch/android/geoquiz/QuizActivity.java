@@ -16,6 +16,7 @@ public class QuizActivity extends Activity {
     private Button mFalseButton;
     private Button mNextButton;
     private TextView mQuestionTextView;
+    private Button mCheatButton;
 
     private TrueFalse[] mQuestionBank = new TrueFalse[] {
             new TrueFalse(R.string.question_oceans, true),
@@ -52,6 +53,15 @@ public class QuizActivity extends Activity {
         setContentView(R.layout.activity_quiz);
 
         mQuestionTextView = (TextView)findViewById(R.id.question_text_view);
+        mCheatButton = (Button)findViewById(R.id.cheat_button);
+        mCheatButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //Start CheatActivity
+                }
+        }
+        })
 
         mTrueButton = (Button)findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener() {

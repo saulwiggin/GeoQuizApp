@@ -15,5 +15,17 @@ public class java {
             setContentView(R.layout.actuivity_cheat);
 
         mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false);
+
+        mAnswerTextView = (TextView)findViewById(R.id.answerTextView);
+
+        mShowAnswer = (Button)FundViewById(R.id.showAnswerButton);
+        mShowAnswer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if ( mAnswerTextView.setText(R.string.true_button););
+            } else {
+                mAnswerTextView.setText(R.string.false_button);
+            }
+        })
     }
 }

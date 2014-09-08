@@ -91,9 +91,11 @@
       <file leaf-file-name="java.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nignerdranch/android/geoquiz/CheatActivity/java.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32458234" vertical-offset="0" max-vertical-offset="838">
-              <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-              <folding />
+            <state vertical-scroll-proportion="0.5274463" vertical-offset="0" max-vertical-offset="838">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <element signature="e#754#774#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2019,9 +2021,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nignerdranch/android/geoquiz/CheatActivity/java.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32458234" vertical-offset="0" max-vertical-offset="838">
-          <caret line="16" column="81" selection-start-line="16" selection-start-column="81" selection-end-line="16" selection-end-column="81" />
-          <folding />
+        <state vertical-scroll-proportion="0.5274463" vertical-offset="0" max-vertical-offset="838">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#754#774#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
